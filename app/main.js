@@ -14,15 +14,14 @@ function exibirOsLivrosNaTela(listaDeLivros) {
     listaDeLivros.forEach(livro => {
         elementoParainserirLivros.innerHTML += `
             <div class="livro">
-                <img class="livro__imagens" src="imagens/Cangaceiro-Javascript.png" alt="Capa do livro Cangaceiro JavaScript" />
+                <img class="livro__imagens" src="${livro.imagem}" alt="${livro.alt}" />
                 <h2 class="livro__titulo">
-                    Cangaceiro JavaScript:
-                    Uma aventura no sertão da programação
+                    ${livro.titulo}
                 </h2>
-                <p class="livro__descricao">Flávio Almeida</p>
-                <p class="livro__preco" id="preco">R$29,90</p>
+                <p class="livro__descricao">${livro.autor}</p>
+                <p class="livro__preco" id="preco">R$${livro.preco}</p>
                 <div class="tags">
-                    <span class="tag">Front-end</span>
+                    <span class="tag">${livro.categoria}</span>
                 </div>
             </div>
         `
