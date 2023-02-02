@@ -1,6 +1,9 @@
-
+const botoes = document.querySelectorAll('.btn')
+botoes.forEach(btn => btn.addEventListener('click', filtrarLivros))
 
 function filtrarLivros() {
-    let livrosFiltrados = livros.filter(livro => livro.categoria == 'front-end');
-    console.table(livrosFiltrados);
+    const elementoBtn = document.getElementById(this.id);
+    const categoria = elementoBtn.ariaValueMax;
+    let livrosFiltrados = livros.filter(livro => livro.categoria == categoria);
+    exibirOsLivrosNaTela(livrosFiltrados);
 }
