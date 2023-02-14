@@ -1,4 +1,4 @@
-﻿# Página web - Treinamento de métodos de <strong>array</strong> com <strong>JavaScript</strong>.
+# Página web (Alura Books) - Treinamento de métodos de <strong>array</strong> com <strong>JavaScript</strong>.
 
 Uma página web criada para aperfeiçoar meus conhecimentos em <strong>JavaScript</strong> e <strong>Arrays</strong> - Criado a partir de instruções da escola [Alura](https://www.alura.com.br/).
 
